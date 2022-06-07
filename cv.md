@@ -57,5 +57,3 @@ function checkBird() {
 + Belorussian (Native)
 + Russian (Native)
 + English (A1 - Adaptive English test 2020, EPAM Examinator)
-
-https://marianstetskiy.github.io/rsschool-cv/cv
