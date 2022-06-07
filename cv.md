@@ -54,6 +54,6 @@ function checkBird() {
      ![](https://stepik.org/certificate/e492f42beb46f74cba309330d891444150ee508c.png?resolution=medium)
 
 ## Languages
-+ Belorussian (Native)
++ Belarussian (Native)
 + Russian (Native)
 + English (A1 - Adaptive English test 2020, EPAM Examinator)
