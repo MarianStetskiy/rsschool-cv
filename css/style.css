@@ -1,0 +1,225 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	background-color: #e5e5e5;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	font-size: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	background-color: #fca311;
+	width: 100%;
+}
+
+h2,
+h3,
+p {
+	padding: 0 22px;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 22px;
+}
+
+.container {
+	max-width: 1000px;
+	min-width: 600px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	max-width: 1000px;
+	min-width: 600px;
+	background-color: #14213d;
+}
+
+nav>ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 22px;
+	margin: 0;
+}
+
+.navlink {
+	color: white;
+}
+
+.navblock {
+	height: 60px;
+	width: 120px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.navblock:hover {
+	background-color: #fca311;
+}
+
+
+.card {
+	padding-top: 82px;
+	display: flex;
+	padding-left: 22px;
+}
+
+.avatar {
+	width: 250px;
+	border-radius: 30px;
+}
+
+.contact-container {
+	display: flex;
+}
+
+.contacts-list {
+	margin: 0;
+}
+
+.contacts-list>li {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.skills-list {
+	display: flex;
+}
+
+.contact-icon {
+	height: 30px;
+	padding-right: 22px;
+}
+
+.skills-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+
+.skills-icon {
+	width: 160px;
+}
+
+pre {
+	margin: 0 350px 0 22px;
+	border-radius: 10px;
+}
+
+code {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.university {
+	display: flex;
+	height: 100px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+h3 {
+	width: 150px;
+}
+
+.bsut {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.bsut-name {
+	width: 260px;
+}
+
+.bsut-img {
+	height: 100px;
+}
+
+.certificate {
+	height: 100px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.certificate:hover {
+	height: 400px;
+}
+
+.courses {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.courses-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+footer {
+	height: 60px;
+	margin-top: 22px;
+	background-color: #000000;
+	color: white;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 22px;
+}
+
+.footer-container>p {
+	padding: 0;
+}
+
+.footer-github-icon {
+	height: 30px;
+}
+
+.footer-rss-icon {
+	height: 30px;
+	background-color: #faea68;
+}
