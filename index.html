@@ -133,15 +133,13 @@
             </section>
             <section class="code-example" id="code-example">
                 <h2>Code example</h2>
-                <pre class="hljs"
-                    style="display: block; overflow-x: auto; background: rgb(45, 45, 45); color: rgb(204, 204, 204); padding: 0.5em;">function <span class="hljs-built_in" style="color: rgb(249, 145, 87);">reverse</span>(n) {
-                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> m = <span class="hljs-type" style="color: rgb(249, 145, 87);">Math</span>.<span class="hljs-built_in" style="color: rgb(249, 145, 87);">abs</span>(n);
-                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> str1 = m.<span class="hljs-built_in" style="color: rgb(249, 145, 87);">toString</span>();
-                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> str2 = str1.<span class="hljs-built_in" style="color: rgb(249, 145, 87);">split</span>('');
-                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> str3 = str2.<span class="hljs-built_in" style="color: rgb(249, 145, 87);">reverse</span>();
-                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> str4 = str3.<span class="hljs-built_in" style="color: rgb(249, 145, 87);">join</span>('');
-                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> str4;
-                }</pre>
+                <pre>
+                    function getRandomNum(min, max) {
+                        min = Math.ceil(min);
+                        max = Math.floor(max);
+                        randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+                    } getRandomNum(1, 20);
+                </pre>
             </section>
             <section class="education" id="education">
                 <h2>Education</h2>
